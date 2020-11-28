@@ -15,4 +15,5 @@ class EmailAddressParser
     end
     email_addresses.flatten
   end
+
 end
