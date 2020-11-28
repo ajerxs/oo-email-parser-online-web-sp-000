@@ -9,7 +9,7 @@ class EmailAddressParser
     @email_addresses = email_addresses
   end
 
-  def parser
+  def parse
     email_addresses.split.collect do |addresses|
       addresses.split(",")
     end
